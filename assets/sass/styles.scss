@@ -322,6 +322,104 @@
 					}
 			}
 		}
+		.wrapper {
+			.navbar-collapse{
+				padding: 0;
+				background: none repeat scroll 0 0 rgba(0, 0, 0, 0.8);
+				border-top: none;
+				box-shadow: none;
+				&.in{
+		    	border-top: none;
+					box-shadow: none;
+				}
+			}
+			.navbar-header{
+				background-color: $whiteColor;
+			}
+			nav{
+				background: transparent;
+    		height: auto;
+				border: 0;
+				&:hover{
+		    	background: transparent;
+					border: 0;
+					li{
+						a{
+							color: $whiteColor;
+						}
+					}
+				}
+				ul{
+					width: 100%;
+			    margin-top: 0;
+			    height: 100%;
+					li{
+						&.active {
+							a{
+								opacity: 1;
+								background-color: $whiteColor;
+								color: $blackColor;
+							}
+						}
+						&.log{
+							display: none;
+						}
+						a{
+							height: 100px;
+							line-height: 100px;
+							font-size: 14px;
+							padding:0;
+							color:$whiteColor;
+							&:hover, &:focus, &:active {
+								background-color: $whiteColor;
+								color: $blackColor;
+								opacity: 1;
+							}
+						}
+					}
+				}
+				.navbar-toggle {
+					.icon-bar {
+				    width: 35px;
+				    height: 6px;
+				    background: $blackColor;
+					}
+				}
+			}
+			#nosotros {
+			    padding-top: 120px;
+					padding-bottom: 120px;
+	        height: auto;
+					>div {
+				    width: 100%;
+						font-size: 25px;
+					}
+					.flip-container{
+						width: 200px;
+						height: 200px;
+						.back{
+							height: 200px;
+							> div{
+					    	top: 60%
+							}
+						}
+					}
+			}
+			#servicios{
+				>div{
+					width: 50%;
+					height: 50%;
+					i{
+						margin-top: 200px;
+					}
+					&:hover{
+						i{
+							margin-top:180px;
+						}
+					}
+				}
+			}
+		}
 	}
 	@media (max-width: $mobile) {
 		.works-grid {
@@ -332,8 +430,44 @@
 					}
 			}
 		}
+		.wrapper{
+			#servicios{
+				>div{
+					width: 100%;
+					height: 25%;
+					i{
+						margin-top: 70px;
+					}
+					&:hover{
+						i{
+							margin-top:50px;
+						}
+					}
+				}
+			}
+		}
+		header {
+			.content {
+				hgroup{
+					width: 270px;
+				}
+			}
+		}
+		.work-full {
+			.work-wrapper {
+				.photo-overlay{
+					width: 100%;
+				}
+			}
+		}
 	}
 	@media (max-width: $miniMobile) {
-
+		header {
+			.content {
+				hgroup{
+					width: 200px;
+				}
+			}
+		}
 	}
 /* End Media Styles ======================================================================== */

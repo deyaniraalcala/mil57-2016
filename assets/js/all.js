@@ -335,3 +335,8 @@ $(document).ready(function() {
     lineColor: '#FFFFFF'
   });
 });
+$('.navbar-nav a').on('click', function () {
+      if (window.innerWidth <= 768) {
+          $(".navbar-toggle").click();
+      }
+  });
