@@ -1,5 +1,5 @@
 # Mil 57
-http://mil57.com.mx/#home
+http://mil57.com.mx/
 
 We are creating our website from scratch. 
 
