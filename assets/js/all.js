@@ -1,18 +1,24 @@
+
 (function($){
     "use strict";
+
     // Page loader
     $(window).load(function(){
         $(".page-loader b").stop(true).delay(100).fadeOut();
         $(".page-loader").stop(true).delay(400).fadeOut("slow");
     });
-    // Portfolio Filtering
-    // Works filtering
-    $(document).ready(function(){
+    document.location.hash = "home";
+    window.onhashchange = function(){
+      var what_to_do = location.href;
+      if (what_to_do=="#home")
+          show_picture();
+    }
+    /*$(document).ready(function(){
         $("#work-grid").mixitup({
             effects: ['fade', 'scale', 'rotateY'],
             easing: 'snap'
         });
-    });
+    });*/
 })(jQuery);
 function initWorkSlider(){
     (function($){
