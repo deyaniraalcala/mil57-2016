@@ -25,9 +25,60 @@
 			}
 		}
 		.work-img{
-			position: relative;
-			overflow: hidden;
-	    height: 198px;
+		  position: relative;
+		  overflow: hidden;
+		  height: 240px;
+		  background-size: cover;
+		  background-repeat: no-repeat;
+		  background-position: center center;
+		  &.gutro{
+		    background-image: url(../images/portafolio/gut-logo.jpg);
+		  }
+		  &.bea{
+		    background-image: url(../images/portafolio/bea-render.jpg);
+		  }
+			&.cc{
+		    background-image: url(../images/portafolio/cc-logo.jpg);
+		  }
+			&.cafe{
+		    background-image: url(../images/portafolio/caf-render.jpg);
+		  }
+			&.lavamass{
+		    background-image: url(../images/portafolio/lav-logo.jpg);
+		  }
+			&.chi{
+		    background-image: url(../images/portafolio/chi-render.jpg);
+		  }
+			&.medicin{
+		    background-image: url(../images/portafolio/medicin-logo.jpg);
+		  }
+			&.ec{
+		    background-image: url(../images/portafolio/ec-render.jpg);
+		  }
+			&.paymc{
+		    background-image: url(../images/portafolio/paymc-logo.jpg);
+		  }
+			&.dcr{
+		    background-image: url(../images/portafolio/tab-render.jpg);
+		  }
+			&.hh{
+				background-image: url(../images/portafolio/hh-logo.jpg);
+			}
+			&.reit{
+				background-image: url(../images/portafolio/reit-render.jpg);
+			}
+			&.mc{
+				background-image: url(../images/portafolio/mancre-logo.jpg);
+			}
+			&.icm{
+				background-image: url(../images/portafolio/icm-render.jpg);
+			}
+			&.fd{
+				background-image: url(../images/portafolio/fus-logo.jpg);
+			}
+			&.ml{
+				background-image: url(../images/portafolio/mlearn-logo.jpg);
+			}
 			img{
 				width: 100%;
 				max-width: 100%;
