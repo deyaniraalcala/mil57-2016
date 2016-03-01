@@ -1,3 +1,20 @@
 # mil57-2016
-New webpage
-Making changes in images and styles.
+We are creating our website from scratch. 
+
+Frameworks used:
+ - html5 
+ - sass
+ - jquery
+ - bootstrap
+
+Programs used: 
+  - Atom
+  - Sublime
+  - git hub
+  - Mamp
+  - Xamp
+  - Koala
+  - Prepos
+  - FTP
+  - Photoshop
+  - Illustrator
