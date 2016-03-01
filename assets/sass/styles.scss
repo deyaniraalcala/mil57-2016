@@ -304,27 +304,36 @@
 
 /* Media Styles ======================================================================== */
 	@media (max-width: $laptop) {
-
+		.works-grid {
+			.work-item {
+					width: 33.33%;
+					.work-img{
+						height: 200px;
+					}
+			}
+		}
 	}
 	@media (max-width: $ipad) {
 		.works-grid {
 			.work-item {
-			    width: 33.33%;
+			    width: 50%;
+					.work-img{
+					  height: 200px;
+					}
 			}
 		}
 	}
 	@media (max-width: $mobile) {
 		.works-grid {
 			.work-item {
-			    width: 50%;
+			    width: 100%;
+					.work-img{
+					  height: 220px;
+					}
 			}
 		}
 	}
 	@media (max-width: $miniMobile) {
-		.works-grid {
-			.work-item {
-			    width: 100%;
-			}
-		}
+
 	}
 /* End Media Styles ======================================================================== */
